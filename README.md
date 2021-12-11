@@ -13,5 +13,35 @@ Architecture
 
 ## Requirement
 - Terraform v1.0.11
+- hashicorp/aws v3.68.0
+  - https://registry.terraform.io/providers/hashicorp/aws/latest
+
+## Demo
+
+| variable | input |
+| --- | --- |
+| aws-availability-zone | ap-northeast-1a |
+| aws-ecs-cluster-cpu | 1024 |
+| aws-ecs-cluster-memory | 2048 |
+| aws-ecs-task-name | mincraft |
+| aws-region| ap-northeast-1 |
+
 
 ## Install
+
+```
+brew install terraform
+```
+
+```
+terraform init
+```
+
+```
+terraform plan
+```
+
+```
+terraform apply
+```
+
