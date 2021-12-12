@@ -11,6 +11,9 @@ Architecture
 - Select Fargate for the ECS cluster
 - The container image is https://github.com/itzg/docker-minecraft-server
 
+![Alt text](https://github.com/katsuyukishimbo/minecraft_with_terraform/blob/main/structure.png "Aws structure")
+
+
 ## Requirement
 - Terraform v1.0.11
 - hashicorp/aws v3.68.0
