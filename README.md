@@ -21,8 +21,6 @@ Architecture
 | variable | input |
 | --- | --- |
 | aws-availability-zone | ap-northeast-1a |
-| aws-ecs-cluster-cpu | 1024 |
-| aws-ecs-cluster-memory | 2048 |
 | aws-ecs-task-name | mincraft |
 | aws-region| ap-northeast-1 |
 
