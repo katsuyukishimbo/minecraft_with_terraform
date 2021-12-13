@@ -34,6 +34,12 @@ Architecture
 brew install terraform
 ```
 
+## How it works
+
+Set own aws account.
+https://github.com/katsuyukishimbo/minecraft_with_terraform/blob/main/provider.tf#L13
+
+
 ```
 terraform init
 ```
@@ -46,3 +52,6 @@ terraform plan
 terraform apply
 ```
 
+Setting done.
+Access AWS Management Console and then check Elastic IPs.([Network & Security] → [Elastic IPs])
+Enter that IP in the server address of Minecraft and start it！
